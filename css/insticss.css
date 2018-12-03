@@ -1,0 +1,98 @@
+.contact form {
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  border-top: 8px solid #E74C3C;
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  padding: 10px;
+  
+}
+
+.contact form input, .contact form textarea {
+  border: none;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 1em;
+  padding: 1em;
+  width: 100%;
+}
+
+.contact form textarea {
+  height: 6em;
+}
+
+.contact form input[type="submit"] {
+  background-color: #E74C3C;
+  border-radius: 0;
+  color: #fff;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.top-bar{
+  grid-area: top-bar ;
+  background-color: red;
+  color: white;
+  height: auto;
+  padding: 4px 12%; 
+}
+
+.top-bar a{
+  float: right;
+  color: white;
+}
+
+.top-bar .social-link{
+  margin-right: 7px;
+}
+
+.top-bar .contact-link{
+  margin-right: 26px;
+}
+
+.main-header{
+  grid-area: main-header;
+  padding: 0px 12%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+   /*border: 2px solid black;
+    border-radius: 4px;*/
+}
+
+.logo{
+  color: #622b0d;
+  font-size: 16px;
+}
+
+.logo span:nth-child(1){
+  float: left;
+  margin-left: -20px;
+  margin-bottom: -10px;
+}
+
+.logo span:nth-child(2){
+  clear: both;
+  display: block;
+  font-family: 'lobster two', serif;
+  font-size: 34px;
+}
+
+.logo span:nth-child(3){
+  float: left;
+  margin-left: 143px;
+  margin-top: -7px;
+}
+
+.main-nav ul, .footer-nav ul{
+  list-style-type: none;  
+}
+
+nav ul li{
+  float: left;
+}
+
+.main-nav ul li a{
+  font-size: 18px;
+  color: #c8825b;
+  margin: 0 10px;
+}
